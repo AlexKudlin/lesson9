@@ -12,5 +12,8 @@ for _ in range(a):
 for _ in range(b):
     B.add(int(input()))
 
+# Можно еще так: intersection = A.intersection(B)
+# print(len(intersection))
+
 
 print(len(A.intersection(B)))
